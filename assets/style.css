@@ -11,7 +11,7 @@ a {
 }
 
 .header {
-  min-height: 100vh;
+  min-height: 75vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7))
   ,url(images/ffff_orig.jpeg);
@@ -107,6 +107,9 @@ nav .fa {
 }
 
 @media (max-width: 700px) {
+  .header {
+    min-height: 100vh;
+  }
   .text-box h1 {
     font-size: 17px;
     text-align: center;
@@ -133,9 +136,63 @@ nav .fa {
     font-size: 22px;
     cursor: pointer;
   }
-
   .nav-links ul {
     padding: 30px;
   }
 }
 
+/* Serviços */
+
+.servicos {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.servicos-col {
+  flex-basis: 31%;
+  background: #F8F9F9;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+ h1 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.row img {
+  width: 350px;
+}
+
+.servicos-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .row img {
+    width: 250px;
+  }
+}
