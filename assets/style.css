@@ -10,6 +10,10 @@ a {
   font-size: 16px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   min-height: 75vh;
   width: 100%;
@@ -198,6 +202,23 @@ h3 {
 .servicos-col:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
+
+.beneficios {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  max-width: 1140px;
+}
+
+.row {
+  display: flex;
+}
+
+.beneficios .row img {
+  width: 100px;
+}
+
 
 @media (max-width: 700px) {
   .row {
