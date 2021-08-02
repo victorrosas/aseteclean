@@ -213,6 +213,11 @@ h3 {
 
 .row {
   display: flex;
+  justify-content: center;
+}
+
+.beneficios .row .img--sofa {
+  width: 135px;
 }
 
 .beneficios .row img {
