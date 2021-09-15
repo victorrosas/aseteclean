@@ -183,6 +183,18 @@ nav .fa {
   transform: scale(1.1);
 }
 
+.servicos-subtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.swiper-slide-selo {
+  width: 100px;
+}
+
 img {
   width: 300px;
 }
