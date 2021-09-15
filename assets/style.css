@@ -191,6 +191,14 @@ nav .fa {
   margin-top: 20px;
 }
 
+.servicos-subtitle-second {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
 .swiper-slide-selo {
   width: 100px;
 }
@@ -322,6 +330,7 @@ h3 {
 }
 
 
+
 .beneficios h1 {
   margin-bottom: 30px;
 }
@@ -395,5 +404,9 @@ h3 {
     font-size: 25px;
     text-align: center;
     margin-bottom: 50px;
+  }
+
+  .servicos-subtitle-second > h1 {
+    font-size: 34px;
   }
 }
