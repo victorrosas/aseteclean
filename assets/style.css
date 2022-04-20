@@ -95,9 +95,19 @@ nav img {
   border: 1px solid #fff;
   padding: 12px 34px;
   font-size: 13px;
-  background: transparent;
+  background: #DDFF33;
+  color: green;
   position: relative;
   cursor: pointer;
+  align-items: center;
+  justify-items: center;
+  font-size: 20px;
+}
+
+.hero-btn .fa{
+  color: green;
+  font-size: 30px;
+  margin-left: 10px;
 }
 
 .hero-btnn {
@@ -112,12 +122,12 @@ nav img {
   cursor: pointer;
 }
 
-.hero-btn:hover {
+/* .hero-btn:hover {
   border: 1px solid #DDFF33;
   background: #DDFF33;
   transition: 1s;
   color: #5833FF;
-}
+} */
 
 nav .fa {
   display: none;
