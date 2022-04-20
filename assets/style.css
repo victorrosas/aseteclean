@@ -122,12 +122,10 @@ nav img {
   cursor: pointer;
 }
 
-/* .hero-btn:hover {
-  border: 1px solid #DDFF33;
-  background: #DDFF33;
-  transition: 1s;
+.hero-btn:hover {
+  transition: 0.5s;
   color: #5833FF;
-} */
+}
 
 nav .fa {
   display: none;
