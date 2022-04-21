@@ -151,6 +151,11 @@ nav .fa {
 }
 
 @media (max-width: 700px) {
+  .whatsapp-link {
+    bottom: 10px;
+    right: 10px;
+  }
+
   .header {
     min-height: 100vh;
   }
@@ -357,8 +362,6 @@ h3 {
   height: 250px;
 }
 
-
-
 .beneficios h1 {
   margin-bottom: 30px;
 }
@@ -408,6 +411,11 @@ h3 {
 }
 
 @media (max-width: 1024px) {
+  .whatsapp-link {
+    bottom: 20px;
+    right: 20px;
+  }
+
   .header {
     height: 100vh;
   }
